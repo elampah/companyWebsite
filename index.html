@@ -19,13 +19,13 @@
     <nav class="nav-bar">
       <div class="logo"></div>
       <div class="links">
-        <ul>
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="index.html">What We Do</a></li>
+        <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#services">What We Do</a></li>
           <li><a href="index.html">Referrence</a></li>
-          <li><a href="index.html">Blog</a></li>
-          <li><a href="index.html">Contacts</a></li>
+          <li><a href="#explore">Blog</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
       </div>
       <div class="nav-services">Services</div>
@@ -37,7 +37,7 @@
     </div>
 
     <!-- first section after nav -->
-    <section class="container">
+    <section class="container js--section-features" id="services">
       <div class="big-bx">
         <div class="small-bx">
           <div class="creative-d">
@@ -99,7 +99,7 @@
     </section>
 
     <!-- second section -->
-    <section class="sect-tw">
+    <section class="sect-tw" id="about-us">
       
       <!-- <div class="blak-bg"></div> -->
       <div class="pic"></div>
@@ -129,7 +129,7 @@
     
 
     <!-- third section -->
-    <section class="sect-thr">
+    <section class="sect-thr" id="explore">
       <div class="pic-x1"></div>
       <div class="sect-thr-child">
         <h2>Explore. Create.</h2>
@@ -147,7 +147,7 @@
     </section>
 
     <!-- footer section -->
-    <section>
+    <section id="contact">
       <footer class="foot-sect">
         <div class="foot-arena">
           <h3>we are arena</h3>
@@ -211,7 +211,8 @@
         </p>
       </div>
     </section>
-
+    <script src="js/main.js"></script>
+    <script src="js/waypoint.js"></script>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
   </body>
 </html>
