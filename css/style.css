@@ -45,6 +45,33 @@
   font-weight: 100;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 18px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 16px 0;
+  color: #555;
+}
+
+/* .sticky .logo {
+  display: none;
+} */
+.sticky .logo {
+  display: block;
+}
+
 /* .links ul li a:hover {
   border-bottom: solid white 3px;
   padding: 15px;
@@ -52,7 +79,7 @@
   width: 5rem;
 } */
 
-.active {
+/* .active {
   padding: 5px;
   padding-top: 10px;
   margin: 0 5px 5px 5px;
@@ -61,7 +88,7 @@
   width: 200px;
   border-radius: 2em;
   font-weight: 700;
-}
+} */
 
 .nav-services {
   margin-top: 80px;
