@@ -1,6 +1,6 @@
-#Company Website
+**Company Website**
 
-**This is a simple project website for an agency or company**
+# This is a simple project website for an agency or company
 
 ## The landing page has...
 
